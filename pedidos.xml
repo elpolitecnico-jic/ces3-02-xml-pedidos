@@ -1,4 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="pedidos.xsl" ?>
+<!DOCTYPE pedidos SYSTEM "pedidos.dtd">
 <pedidos>
+
+    <pedido numeropedido="01">
+
+        <producto>
+            <numeroserie>0001</numeroserie>
+            <cantidad>40</cantidad>
+            <peso>30K</peso>
+        </producto>
+
+        <producto>
+            <numeroserie>00201</numeroserie>
+            <cantidad>10</cantidad>
+        </producto>
+
+        <producto>
+            <numeroserie>0030</numeroserie>
+            <cantidad>50</cantidad>
+            <peso>10g</peso>
+        </producto>
+
+    </pedido>
+
+    <pedido numeropedido="02">
+
+        <producto>
+            <numeroserie>0001</numeroserie>
+            <cantidad>10</cantidad>
+            <peso>10K</peso>
+        </producto>
+
+    </pedido>
     
 </pedidos>

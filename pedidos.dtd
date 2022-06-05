@@ -1,0 +1,7 @@
+<!ELEMENT pedidos (pedido)*>
+<!ELEMENT pedido (producto)+>
+<!ATTLIST pedido numeropedido CDATA #REQUIRED>
+<!ELEMENT producto (numeroserie, cantidad, peso?)+>
+<!ELEMENT numeroserie (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT peso (#PCDATA)>
